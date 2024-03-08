@@ -1,0 +1,72 @@
+*{
+    background-color: rgb(37, 78, 91);
+    margin: 0;
+    padding: 0;
+    
+}
+#h1{
+    text-align: center;
+}
+.container{
+    
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tic_Tac{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center; 
+    gap: 1.5vmin;
+    
+}
+.box{
+     height:18vmin;
+     width: 18vmin;
+     border-radius: 1vmin;
+     border: none;
+     
+     color: red;
+     font-size: 8vmin;
+     text-shadow: 2vmin;
+     background-color: rgb(54, 128, 67);
+}
+#reset{
+    padding:3rem ;
+    text-align: center;
+    border-radius: 0.2vmax;
+    font-size: medium;
+    color: rgb(10, 49, 245);
+}
+#game{
+    padding: 0.5rem;
+    background-color: rgb(123, 68, 100);
+}
+
+#new-game{
+    padding:0.2rem;
+    font-size:1.5rem;
+    background-color: rgb(152, 134, 198);
+    border-radius: 1rem;
+    color:rgb(177, 9, 166);
+    margin-left: 45%;
+    text-shadow: 10px;
+}
+#msg{
+    font-size: 8vmin;
+    color: #ffffc7;
+}
+.msg-container{
+    height: 20vmin;
+}
+.hide{
+    display: none; 
+}
+#h1{
+    color: rgb(16, 127, 224);
+}
+
